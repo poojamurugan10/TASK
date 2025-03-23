@@ -7,8 +7,7 @@
     <link rel="stylesheet" href="style.css" />
     <link
       rel="shortcut icon"
-      href="https://e7.pngegg.com/pngimages/710/115/png-clipart-computer-icons-favicon-science-iconfinder-free-science-icon-text-logo.png
-    "
+      href="https://e7.pngegg.com/pngimages/710/115/png-clipart-computer-icons-favicon-science-iconfinder-free-science-icon-text-logo.png"
       type="image/x-icon"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -17,12 +16,12 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Volkhov:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
+    <style>
+      .highlight {
+        color: #fa7436; /* Changes the color of the particular word */
+      }
+    </style>
+    
   </head>
   <body>
     <!--header section starts-->
@@ -30,72 +29,81 @@
       <div class="wrapper">
         <nav>
           <div class="logo">Trabook <img src="assets/icon.svg" alt="icon" /></div>
-          </div>
+         
           <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Destination</a></li>
             <li><a href="#">Tour</a></li>
-            <li><a href="#">Login</a></li>
-            <li><a href="#" class="btn light">Sign up</a></li>
+            <li><a href="#">Blog</a></li>
           </ul>
+            <div class="login"><span class="highlight"><li><a href="#">Login</a></li></span>
+            <li><a href="#" class="btn dark">Sign up</a></li></div>
+
+          
         </nav>
-        <!--hero section starts-->
-        <div class="hero section">
+        <!--hero-section starts-->
+        <div class="hero-section">
           <div class="left">
             <h1>
               Get started your <br />
-              exciting journey <br />
+              exciting <span class="highlight">journey</span> <br />
               with us.
             </h1>
             <p>
-              A Team of experienced tourism professionals will provide you with
-              the best advice and tips for your desire place.
+              A Team of experienced tourism professionals will<br>provide you with
+              the best advice and tips for your <br>desire place.
             </p>
-            <div class="btn">Discover Now</div>
-            <form class="submit form">
+            <a href="#" class="btn light">Discover Now</a>
+          
+        
+            <form class="submit-form">
               <div class="details">
-                <label for="Location">Location</label>
-                <input
-                  type="text"
+                <label for="Location">Location <img src="assets/more button.svg" alt="" /></label>
+                 <input type="text"
                   id="Location"
                   placeholder="Where are you going"
                 />
-                <img src="assets/more button.svg" alt="" />
-                <label for="Date">Date</label>
+              </div>
+               <div class="details">
+                <label for="Date">Date <img src="assets/more button.svg" alt="" /> </label>
                 <input type="number" id="Date" placeholder="When will you go" />
-                <img src="assets/more button.svg" alt="" />
-                <label for="Guest">Guest</label>
+              </div> 
+                
+              <div class="details">
+                <label for="Guest">Guest<img src="assets/more button.svg" alt="" /></label>
                 <input type="text" id="Guest" placeholder="Number of guest" />
-                <img src="assets/more button.svg" alt="" />
+                
               </div>
 
-              <label><a href="#" class="btn light">Explore now</a></label>
+              <div><label class="explore">
+                <a href="#" class="btn dark">Explore now</a></label>
+              </div>
             </form>
           </div>
-        </div>
+        
         <div class="right">
-          <div class="awards section">
+          <div class="awards-section">
             <div class="content">
               <img src="assets/trophy-removebg-preview 1.svg" alt="trophy" />
               <h4>Best Tour Awards</h4>
             </div>
           </div>
-          <div class="explore section">
+          <div class="explore-section">
             <div class="content">
               <img src="assets/google-maps 1.svg" alt="map" />
               <h4>Explore</h4>
-              <p>Explore every corner of the world with us</p>
+              <p>Explore every corner of<br> the world with us</p>
             </div>
           </div>
-          <div class="review section">
+          <div class="review-section">
             <div class="content">
               <img src="assets/star 1.svg" alt="star" />
               <h4>27K</h4>
               <p>Customer reviewed</p>
             </div>
           </div>
-          <div class="hero image">
+          <div class="hero-image">
             <img
               src="assets/tourist-with-thumb-up__1_-removebg 1.png"
               alt="tourist"
@@ -103,53 +111,53 @@
           </div>
         </div>
       </div>
+    </div>
     </header>
     <!--header completed-->
-    <!--things to do section starts-->
+    <!--things-to-do section starts-->
     <div class="wrapper">
-      <section class="things to do">
+      <section class="things-to-do">
         <div class="content head">
-          <h2>Things you need to do</h2>
-          <img src="assets/flight.svg" alt="flight" />
-        </div>
-        <div class="content">
-          <p>
-            We ensure that you’ll embark on a perfectly planned, safe vacation
+         <h1>Things you need <span class="highlight">to do</span><img src="assets/flight.svg" alt="flight" /></h1>
+         
+        <p>
+            We ensure that you’ll embark on a perfectly planned,<br> safe vacation
             at a price you can afford.
           </p>
         </div>
-        <div class="sign up section">
+      
+        <div class="sign-up-section">
           <img src="assets/calender.svg" alt="calender" />
-          <div class="signup content">
+
             <h3>Sign Up</h3>
             <p>
               Completes all the work associated with planning and processing
             </p>
-          </div>
+         
         </div>
-        <div class="deals section">
+        <div class="deals-section">
           <img src="assets/wallet.svg" alt="wallet" />
-          <div class="deals content">
+          
             <h3>Worth of Money</h3>
             <p>
               After successful access then book from exclusive deals & pricing
             </p>
-          </div>
+          
         </div>
-        <div class="exciting section">
+        <div class="exciting-section">
           <img src="assets/maps.svg" alt="location" />
-          <div class="exciting content">
+          
             <h3>Exciting Travel</h3>
             <p>Start and explore a wide range of exciting travel experience.</p>
-          </div>
+          
         </div>
       </section>
     </div>
-    <!--to do section completed-->
+    <!--to-do-section completed-->
     <!--places to visit starts-->
     <div class="wrapper">
       <section class="places">
-        <div class="content head">
+        <div class="content-head">
           <h2>Exclusive deals & discounts</h2>
           <p>
             Discover our fantastic early booking discounts & start planning your
@@ -175,7 +183,7 @@
 
         <div class="Firenze">
           <img src="assets/Hover.png" alt="Firenze"/>
-          <div class="btn light">Book Now</div>
+          <div class="btn dark">Book Now</div>
           <div class="places">
             <h2>Firenze</h2>
             <div class="rating">
@@ -296,7 +304,7 @@
 
     </div>
     <!--vacation plan section ends-->
-    <!--review section starts-->
+    <!--review-section-starts-->
     <div class="wrapper">
       <section class="review">
         <div class="left">
@@ -318,7 +326,7 @@
             <img src="assets/Image (4).png" alt="man">
 
           </div>
-          <div class="review content">
+          <div class="review-content">
              <p>“On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.”
 
              </p>
@@ -336,7 +344,7 @@
       </section>
 
     </div>
-     <!--review section ends-->
+     <!--review-section-ends-->
       <!--latest update section starts-->
       <div class="wrapper">
         <section class="blog">
@@ -400,7 +408,7 @@
           <img src="assets/Rectangle 22.svg" alt="rectangle">
           <img src="assets/Vector 5.svg" alt="">
           <input type="text" placeholder="Email your mail"/>
-          <button class="submit-btn">Subscribe</button>
+          <a href="#" class="btn dark">Subscribe</a>
         </form>
         </section>
 
@@ -462,7 +470,7 @@
 
           </div>
           <div class="right">
-            Terms & Conditions
+            <a href="#">Terms & Conditions</a>
 
           </div>
 
